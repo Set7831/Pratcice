@@ -26,7 +26,7 @@ function App() {
       <div className="wrapper">
         <div className="navbar">
               <div className="search-container">
-                  <img src={SearchIcon} />
+                  <img src={SearchIcon} className="search-icon"/>
                   <input type="text" className="search-input" placeholder="Search" />
               </div>
               <div className="add-button">

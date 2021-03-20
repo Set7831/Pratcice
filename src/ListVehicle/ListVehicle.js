@@ -14,11 +14,11 @@ const ListVehicle = props => {
                 <td>{props.Device}</td>
                 <td>{props.Location}</td>
                 <td>{props.Total_ODO}</td>
-                <td>
-                    <iconbutton ClassName="edit" button_edit={props.edit}>
+                <td className="actions">
+                    <iconbutton className="edit" button_edit={props.edit}>
                         <img src={EditIcons}/>
                     </iconbutton>
-                    <iconbutton ClassName="delete" button_delete={props.delete}>
+                    <iconbutton className="delete" button_delete={props.delete}>
                     <img src={DeleteIcons}/>
 
                     </iconbutton></td>

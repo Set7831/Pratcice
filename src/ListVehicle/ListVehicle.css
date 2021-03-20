@@ -19,7 +19,10 @@ th {
 td {
   min-width: 40px;
 }
-
+.actions{
+  display: flex;
+  justify-content: space-between;
+}
 .edit {
   cursor: pointer;
 }

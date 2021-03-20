@@ -64,11 +64,18 @@ td {
 }
 
 .search-container {
-  flex: 1;
+  position: relative;
   flex-direction: row;
   border-bottom-width: 1px;
   border-color: #000;
   padding-bottom: 10;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
 }
 
 .add-button {
