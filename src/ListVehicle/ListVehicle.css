@@ -1,0 +1,29 @@
+.item-list {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.table-row {
+  border-bottom: 1px solid #999;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+th {
+  color: #888;
+  font-weight: 400;
+}
+
+td {
+  min-width: 40px;
+}
+
+.edit {
+  cursor: pointer;
+}
+
+.delete {
+  cursor: pointer;
+}
