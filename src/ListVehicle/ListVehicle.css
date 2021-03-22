@@ -16,9 +16,6 @@ th {
   font-weight: 400;
 }
 
-td {
-  min-width: 40px;
-}
 .actions{
   display: flex;
   justify-content: space-between;
@@ -30,3 +27,9 @@ td {
 .delete {
   cursor: pointer;
 }
+
+td, th {
+  width: 11%;
+  text-align: left;
+ 
+  }
